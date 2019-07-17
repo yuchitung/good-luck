@@ -56,7 +56,7 @@
 
 ### Authenticaton
   
-  如果你是自己架 server 串 GCP 的服務，需要建立 [serveice account](https://cloud.google.com/docs/authentication/production)
+  如果你是自己架 server 串 GCP 的服務，需要建立 [service account](https://cloud.google.com/docs/authentication/production)
 
   本範例因為全部都是使用 GCP 的服務，google 會自動幫你處理。[Ref.](https://cloud.google.com/docs/authentication/production#providing_credentials_to_your_application)
   >If your application runs on Compute Engine, Kubernetes Engine, the App Engine flexible environment, or Cloud Functions, you don't need to create your own service account. Compute Engine includes a default service account that is automatically created for you, and you can assign a different service account, per-instance, if needed. When you create a new instance, the instance is automatically enabled to run as the default service account and has a default set of authorization permissions. For more information, see Compute Engine default service account. After you set up a service account, ADC can implicitly find your credentials without any need to change your code, as described in the section above. If you want to specifically use Compute Engine credentials, you can explicitly do so, as shown in the following code example.
